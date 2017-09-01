@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/quickfixgo/quickfix/internal"
+	"github.com/Yellitech/quickfix/internal"
 )
 
 const (

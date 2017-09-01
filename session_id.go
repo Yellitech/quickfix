@@ -3,7 +3,7 @@ package quickfix
 import (
 	"bytes"
 
-	"github.com/quickfixgo/quickfix/enum"
+	"github.com/Yellitech/quickfix/enum"
 )
 
 // SessionID is a unique identifer of a Session

@@ -1,9 +1,9 @@
 package fixt11
 
 import (
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/field"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix"
+	"github.com/Yellitech/quickfix/field"
+	"github.com/Yellitech/quickfix/tag"
 )
 
 //Trailer is the fixt11 Trailer type

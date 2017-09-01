@@ -6,8 +6,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/quickfixgo/quickfix/datadictionary"
-	"github.com/quickfixgo/quickfix/enum"
+	"github.com/Yellitech/quickfix/datadictionary"
+	"github.com/Yellitech/quickfix/enum"
 )
 
 //Header is first section of a FIX Message

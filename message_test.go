@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/quickfixgo/quickfix/datadictionary"
-	"github.com/quickfixgo/quickfix/enum"
+	"github.com/Yellitech/quickfix/datadictionary"
+	"github.com/Yellitech/quickfix/enum"
 	"github.com/stretchr/testify/suite"
 )
 

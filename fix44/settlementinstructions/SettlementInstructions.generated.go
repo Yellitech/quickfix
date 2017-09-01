@@ -3,11 +3,11 @@ package settlementinstructions
 import (
 	"time"
 
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/enum"
-	"github.com/quickfixgo/quickfix/field"
-	"github.com/quickfixgo/quickfix/fix44"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix"
+	"github.com/Yellitech/quickfix/enum"
+	"github.com/Yellitech/quickfix/field"
+	"github.com/Yellitech/quickfix/fix44"
+	"github.com/Yellitech/quickfix/tag"
 )
 
 //SettlementInstructions is the fix44 SettlementInstructions type, MsgType = T

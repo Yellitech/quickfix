@@ -1,7 +1,7 @@
 package quickfix
 
 import (
-	"github.com/quickfixgo/quickfix/enum"
+	"github.com/Yellitech/quickfix/enum"
 )
 
 type routeKey struct {

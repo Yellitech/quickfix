@@ -4,11 +4,11 @@ import (
 	"github.com/shopspring/decimal"
 	"time"
 
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/enum"
-	"github.com/quickfixgo/quickfix/field"
-	"github.com/quickfixgo/quickfix/fix40"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix"
+	"github.com/Yellitech/quickfix/enum"
+	"github.com/Yellitech/quickfix/field"
+	"github.com/Yellitech/quickfix/fix40"
+	"github.com/Yellitech/quickfix/tag"
 )
 
 //ExecutionReport is the fix40 ExecutionReport type, MsgType = 8

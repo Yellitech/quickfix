@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/quickfixgo/quickfix/enum"
+	"github.com/Yellitech/quickfix/enum"
 	"github.com/stretchr/testify/suite"
 )
 

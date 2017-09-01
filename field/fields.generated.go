@@ -1,9 +1,9 @@
 package field
 
 import (
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/enum"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix"
+	"github.com/Yellitech/quickfix/enum"
+	"github.com/Yellitech/quickfix/tag"
 	"github.com/shopspring/decimal"
 	"time"
 )

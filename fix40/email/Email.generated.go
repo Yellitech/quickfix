@@ -3,11 +3,11 @@ package email
 import (
 	"time"
 
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/enum"
-	"github.com/quickfixgo/quickfix/field"
-	"github.com/quickfixgo/quickfix/fix40"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix"
+	"github.com/Yellitech/quickfix/enum"
+	"github.com/Yellitech/quickfix/field"
+	"github.com/Yellitech/quickfix/fix40"
+	"github.com/Yellitech/quickfix/tag"
 )
 
 //Email is the fix40 Email type, MsgType = C

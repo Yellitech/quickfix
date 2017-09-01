@@ -1,7 +1,7 @@
 package tag
 
 import (
-	"github.com/quickfixgo/quickfix"
+	"github.com/Yellitech/quickfix"
 )
 
 const (

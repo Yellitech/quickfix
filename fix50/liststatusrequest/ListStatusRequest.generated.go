@@ -1,10 +1,10 @@
 package liststatusrequest
 
 import (
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/field"
-	"github.com/quickfixgo/quickfix/fixt11"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix"
+	"github.com/Yellitech/quickfix/field"
+	"github.com/Yellitech/quickfix/fixt11"
+	"github.com/Yellitech/quickfix/tag"
 )
 
 //ListStatusRequest is the fix50 ListStatusRequest type, MsgType = M

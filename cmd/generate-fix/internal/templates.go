@@ -166,12 +166,12 @@ import(
 	{{- end }}
 
 
-	"github.com/quickfixgo/quickfix"
+	"github.com/Yellitech/quickfix"
 	{{- if checkIfEnumImportRequired .MessageDef}}
-	"github.com/quickfixgo/quickfix/enum"
+	"github.com/Yellitech/quickfix/enum"
 	{{- end }}
-	"github.com/quickfixgo/quickfix/field"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix/field"
+	"github.com/Yellitech/quickfix/tag"
 )
 
 //Header is the {{ .Package }} Header type
@@ -201,12 +201,12 @@ import(
 	"{{ . }}"
 	{{- end }}
 
-	"github.com/quickfixgo/quickfix"
+	"github.com/Yellitech/quickfix"
 	{{- if checkIfEnumImportRequired .MessageDef}}
-	"github.com/quickfixgo/quickfix/enum"
+	"github.com/Yellitech/quickfix/enum"
 	{{- end }}
-	"github.com/quickfixgo/quickfix/field"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix/field"
+	"github.com/Yellitech/quickfix/tag"
 )
 
 //Trailer is the {{ .Package }} Trailer type
@@ -229,7 +229,7 @@ import(
 	"{{ . }}"
 	{{- end }}
 
-	"github.com/quickfixgo/quickfix"
+	"github.com/Yellitech/quickfix"
 	{{- if checkIfEnumImportRequired .MessageDef}}
 	"{{ importRootPath }}/enum"
 	{{- end }}
@@ -296,7 +296,7 @@ func Route(router RouteOut) (string, string, quickfix.MessageRoute) {
 
 	TagTemplate = template.Must(template.New("Tag").Parse(`
 package tag
-import("github.com/quickfixgo/quickfix")
+import("github.com/Yellitech/quickfix")
 
 const (
 {{- range .}}
@@ -308,7 +308,7 @@ const (
 	FieldTemplate = template.Must(template.New("Field").Funcs(tmplFuncs).Parse(`
 package field
 import(
-	"github.com/quickfixgo/quickfix"
+	"github.com/Yellitech/quickfix"
 	"{{ importRootPath }}/enum"
 	"{{ importRootPath }}/tag"
 {{ if checkIfDecimalImportRequiredForFields . }} "github.com/shopspring/decimal" {{ end }}

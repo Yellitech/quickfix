@@ -1,10 +1,10 @@
 package sequencereset
 
 import (
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/field"
-	"github.com/quickfixgo/quickfix/fix41"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix"
+	"github.com/Yellitech/quickfix/field"
+	"github.com/Yellitech/quickfix/fix41"
+	"github.com/Yellitech/quickfix/tag"
 )
 
 //SequenceReset is the fix41 SequenceReset type, MsgType = 4

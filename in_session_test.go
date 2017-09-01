@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/quickfixgo/quickfix/enum"
-	"github.com/quickfixgo/quickfix/internal"
+	"github.com/Yellitech/quickfix/enum"
+	"github.com/Yellitech/quickfix/internal"
 	"github.com/stretchr/testify/suite"
 )
 

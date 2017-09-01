@@ -1,11 +1,11 @@
 package userresponse
 
 import (
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/enum"
-	"github.com/quickfixgo/quickfix/field"
-	"github.com/quickfixgo/quickfix/fix44"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix"
+	"github.com/Yellitech/quickfix/enum"
+	"github.com/Yellitech/quickfix/field"
+	"github.com/Yellitech/quickfix/fix44"
+	"github.com/Yellitech/quickfix/tag"
 )
 
 //UserResponse is the fix44 UserResponse type, MsgType = BF

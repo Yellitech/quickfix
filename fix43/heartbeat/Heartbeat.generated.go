@@ -1,10 +1,10 @@
 package heartbeat
 
 import (
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/field"
-	"github.com/quickfixgo/quickfix/fix43"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix"
+	"github.com/Yellitech/quickfix/field"
+	"github.com/Yellitech/quickfix/fix43"
+	"github.com/Yellitech/quickfix/tag"
 )
 
 //Heartbeat is the fix43 Heartbeat type, MsgType = 0

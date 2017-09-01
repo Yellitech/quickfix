@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/quickfixgo/quickfix/datadictionary"
-	"github.com/quickfixgo/quickfix/enum"
-	"github.com/quickfixgo/quickfix/internal"
+	"github.com/Yellitech/quickfix/datadictionary"
+	"github.com/Yellitech/quickfix/enum"
+	"github.com/Yellitech/quickfix/internal"
 )
 
 //The Session is the primary FIX abstraction for message communication

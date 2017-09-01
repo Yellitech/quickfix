@@ -1,8 +1,8 @@
 package quickfix
 
 import (
-	"github.com/quickfixgo/quickfix/enum"
-	"github.com/quickfixgo/quickfix/internal"
+	"github.com/Yellitech/quickfix/enum"
+	"github.com/Yellitech/quickfix/internal"
 )
 
 type logonState struct{ connectedNotLoggedOn }

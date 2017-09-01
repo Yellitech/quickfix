@@ -3,11 +3,11 @@ package quotecancel
 import (
 	"github.com/shopspring/decimal"
 
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/enum"
-	"github.com/quickfixgo/quickfix/field"
-	"github.com/quickfixgo/quickfix/fix42"
-	"github.com/quickfixgo/quickfix/tag"
+	"github.com/Yellitech/quickfix"
+	"github.com/Yellitech/quickfix/enum"
+	"github.com/Yellitech/quickfix/field"
+	"github.com/Yellitech/quickfix/fix42"
+	"github.com/Yellitech/quickfix/tag"
 )
 
 //QuoteCancel is the fix42 QuoteCancel type, MsgType = Z
