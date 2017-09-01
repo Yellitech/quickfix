@@ -62,6 +62,12 @@ func registerSession(s *session) error {
 	return nil
 }
 
+func deregisterSession(s *session) {
+	sessionsLock.Lock()
+	defer sessionsLock.Unlock()
+	delete(sessions, s.sessionID)
+}
+
 func lookupSession(sessionID SessionID) (s *session, ok bool) {
 	sessionsLock.RLock()
 	defer sessionsLock.RUnlock()
