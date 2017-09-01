@@ -49,12 +49,6 @@ func (i *Initiator) Stop() {
 	i.wg.Wait()
 }
 
-func (i *Initiator) Destroy() {
-	for _, session := range i.sessions {
-		deregisterSession(session)
-	}
-}
-
 //NewInitiator creates and initializes a new Initiator.
 func NewInitiator(app Application, storeFactory MessageStoreFactory, appSettings *Settings, logFactory LogFactory) (*Initiator, error) {
 	i := &Initiator{

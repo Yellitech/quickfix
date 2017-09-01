@@ -54,18 +54,8 @@ func registerSession(s *session) error {
 	sessionsLock.Lock()
 	defer sessionsLock.Unlock()
 
-	if _, ok := sessions[s.sessionID]; ok {
-		return errDuplicateSessionID
-	}
-
 	sessions[s.sessionID] = s
 	return nil
-}
-
-func deregisterSession(s *session) {
-	sessionsLock.Lock()
-	defer sessionsLock.Unlock()
-	delete(sessions, s.sessionID)
 }
 
 func lookupSession(sessionID SessionID) (s *session, ok bool) {
